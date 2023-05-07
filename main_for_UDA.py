@@ -18,7 +18,7 @@ from utils.eval import predict
 from utils import globalvar as gl
 # import dataloader as dir_dataloader
 parser = argparse.ArgumentParser(description='UDA Classification')
-parser.add_argument('--root_dir', type=str, default='/home/Hong/deep_transfer_learning/datasets/',
+parser.add_argument('--root_dir', type=str, default='/home/xxx/deep_transfer_learning/datasets/',
                     help='root dir of the dataset')     
 parser.add_argument('--dataset', type=str, default='officehome',
                     help='the name of dataset')
